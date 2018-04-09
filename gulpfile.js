@@ -14,6 +14,7 @@ gulp.task('build', function () {
         .pipe(gulp.dest('../public'));
 });
 
+
 //Новая задача 'Запуск сервера'('browser-sync'):
 gulp.task('browser-sync', function() {
     browserSync.init({
