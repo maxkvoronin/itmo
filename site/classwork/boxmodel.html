@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>box model</title>
         <link rel="stylesheet" href="grid.css">
+    <meta name="viewport" content="width=device-width">
     <style>
 
         .box-1 {
@@ -72,8 +74,91 @@
         .what-we-do {
             background: #2d3134;
         }
+
+    .header {
+        background: #3f729b;
+    }
+
+        .menu-item {
+            display: inline-block;
+            padding: 1rem 2rem;
+        }
+        .level-2 {
+            display: block;
+            background: #0F9E5E;
+
+        }
+        .menu-level-2 {
+            display: block;
+            background: #9d9d9d;
+            position: absolute;
+            left: 0;
+            top: 100%;
+        }
+
+        .header ul {
+            padding: 0;
+        }
+        .level-1 {
+            position: relative;
+        }
+    .fade {
+        background: rgba(0,0,0,0.6);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+.modal-content {
+    margin: auto;
+    margin-top: 200px;
+    max-width: 400px;
+    background: #00aced;
+}
+        .flex_container {
+            height: 150px;
+            display: flex;
+        }
     </style>
 </head>
+<body>
+<!--<header class="header">-->
+    <!--<ul class="menu">-->
+        <!--<li class="menu-item level-1">link</li>-->
+        <!--<li class="menu-item level-1">link</li>-->
+        <!--<li class="menu-item level-1">link</li>-->
+        <!--<li class="menu-item level-1">-->
+            <!--<span>link</span>-->
+            <!--<ul class="menu-level-2">-->
+                <!--<li class="menu-item level-2">link</li>-->
+                <!--<li class="menu-item level-2">link</li>-->
+                <!--<li class="menu-item level-2">link</li>-->
+                <!--<li class="menu-item level-2">link</li>-->
+            <!--</ul>-->
+        <!--</li>-->
+    <!--</ul>-->
+<!--</header>-->
+
+
+
+
+<!--<div class="modal fade">-->
+    <!--<div class="modal-content">-->
+        <!--<h2>подпишитесь на рассылку</h2>-->
+        <!--<input type="email">-->
+        <!--<button>отправить</button>-->
+    <!--</div>-->
+<!--</div>-->
+
+<section class="flex">
+    <div class="flex_container">
+        text
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error.</p>
+        <div>123</div>
+    </div>
+</section>
+
 
 <section>
 <div class="box box-1">
